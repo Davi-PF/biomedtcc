@@ -1,59 +1,75 @@
-<!--te-->
 <h1 align="center">
-  Projeto "PIP" 🚀 Em desenvolvimento... 
+  Projeto "ZLO" 🚀 Em desenvolvimento...
 </h1>
 
-### Rodando o Projeto 
+<h2 align="center"> Bacharelado em Engenharia de Software </h2>
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/VictorKuhn/projeto-biomediciona.git
+---
 
-# Acesse a pasta do projeto no terminal/cmd 
-$ cd projeto-biomediciona
+<div align="center">
+  <p><a href="https://www.linkedin.com/in/daviprudente/">Davi Prudente Ferreira</a></p>
+  <p><a href="https://www.linkedin.com/in/victorbkuhn">Victor Hugo Bosse Kühn</a></p>
+  <p><a href="https://www.linkedin.com/in/wesleysardi/">Wesley Erik Sardi</a></p>
+</div>
 
-# Acesse a pasta "backend" e instale as dependências necessárias relacionadas ao Java e retorne a pasta raíz
-$ cd backend
-$ npm install 
-$ cd ..
+---
 
-# Acesse a pasta "frontend" e instale as dependências necessárias  relacionadas ao ReactJS e retorne a pasta raíz
-$ cd frontend
-$ npm install 
-$ cd ..
+<h2 align="center"><strong>Resumo</strong></h2>
 
-# Tenha 2 terminais simultâneos para que seja possível rodar o servidor Java e ReactJS
+O projeto **ZLO (Pulseira de Identificação Pessoal)** é um sistema projetado para a rápida e segura identificação de crianças e idosos com doenças degenerativas. O objetivo é garantir a segurança e o bem-estar de pessoas dependentes, que podem se perder ou causar transtornos.
 
-# Execute a aplicação Java entrando na pasta "backend" no primeiro terminal
-$ cd backend
+O sistema permite que os responsáveis cadastrem informações importantes de seus dependentes em um aplicativo, transferindo-as para uma pulseira via chip NFC. Se o dependente se perder, qualquer pessoa pode ler o NFC da pulseira com um celular para acessar uma página web com os dados do dependente e um número de emergência. Caso não haja acesso à internet, o aplicativo pode ler o NFC diretamente.
 
-# Execute a aplicação ReactJS entrando na pasta "frontend" no segundo terminal
-$ cd frontend
-$ npm start
+Para visualizar informações mais sensíveis, o usuário deve se identificar e receberá um código via SMS para confirmar sua identidade. Assim, a segurança e privacidade das informações são garantidas.
 
-```
+---
 
-### Tecnologias utilizadas 
+<h2 align="center"><strong>Contexto</strong></h2>
+
+O projeto de desenvolvimento de um sistema integrado com pulseira com chip NFC está inserido na crescente necessidade de soluções tecnológicas para a identificação e proteção de usuários vulneráveis, como crianças e idosos. Com a urbanização crescente e a mobilidade, as situações de risco, como desaparecimentos ou necessidades de atendimento médico urgente, têm aumentado.
+
+A pulseira NFC oferece uma solução eficaz e rápida, permitindo que terceiros acessem informações críticas de maneira segura, facilitando a prestação de assistência adequada em emergências.
+
+---
+
+<h2 align="center"><strong>Justificativa</strong></h2>
+
+A criação da pulseira NFC é fundamentada em necessidades de segurança, identificação e assistência a grupos vulneráveis. Crianças e idosos frequentemente enfrentam riscos de desaparecimento ou incapacidade de comunicar informações essenciais em emergências. A pulseira oferece uma camada adicional de segurança ao permitir rápida identificação e contato com responsáveis.
+
+---
+
+<h2 align="center"><strong>Objetivos</strong></h2>
+
+### Objetivo Geral
+Desenvolver um sistema para a identificação rápida e segura de crianças e idosos, fornecendo informações críticas do usuário por meio de dispositivos móveis.
+
+### Objetivos Específicos
+1. Desenvolver um produto com chip NFC de alta confiabilidade para armazenar informações do usuário de forma segura.
+2. Criar uma interface web acessível e amigável para consulta rápida das informações do usuário por meio do escaneamento do chip NFC.
+3. Integrar medidas de segurança robustas para proteger os dados pessoais dos usuários e prevenir clonagem da pulseira.
+4. Possibilitar o gerenciamento das informações armazenadas na pulseira, atendendo às preferências individuais dos usuários.
+5. Registrar eventos de escaneamento para rastrear o uso da pulseira e fornecer informações úteis para os responsáveis.
+6. Promover a usabilidade da pulseira, tornando-a confortável e resistente para uso contínuo, especialmente por crianças e idosos.
+7. Testar a eficácia da pulseira em cenários do mundo real, como situações de emergência e localização de pessoas desaparecidas.
+8. Estabelecer parcerias potenciais com instituições de cuidados de saúde e educação para implementar a pulseira em ambientes relevantes.
+
+---
+
+<h2 align="center"><strong>Tecnologias Utilizadas</strong></h2>
+
 As seguintes ferramentas foram utilizadas no desenvolvimento deste projeto:
+
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev)
 - [Java](https://docs.oracle.com/en/java/)
-- [Amazon AWS](https://aws.amazon.com/pt/free/?trk=2ee11bb2-bc40-4546-9852-2c4ad8e8f646&sc_channel=ps&ef_id=Cj0KCQjwpompBhDZARIsAFD_Fp_fDBA65VGjB-TPrvJhqRpX6GXRq3FPZkTCdExLPT3s3IBRg3gXJfQaAgwYEALw_wcB:G:s&s_kwcid=AL!4422!3!561843094929!e!!g!!aws!15278604629!130587771740&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
+- [Amazon AWS](https://aws.amazon.com/pt/free/)
 
-- 
+---
 
+<h2 align="center"><strong>Modelos e Protótipos</strong></h2>
 
-### Modelos e Protótipos visuais
 - [Web](https://www.figma.com/file/yFlj0OquWdDCsDoypT1UL5/ProjetoBiomedicina?type=design&node-id=1-86&mode=design&t=jxRUze0i78kWS9fO-0)
 - [App](https://www.figma.com/file/xZdBktzQOML8jXzxIpRxPi/App-Biomedicina?type=design&node-id=0-1&mode=design&t=2I1PtHyKohGr3a97-0)
 - [Design Pattern](https://www.figma.com/file/EHBIkwHghhQkBV6kHt7oB1/Design-Pattern-%2F-PIP?type=design&node-id=0%3A1&mode=design&t=yuSb8ZMjPXa90W7t-1)
 
-
 ---
-
-Made by:
-
- - Davi Prudente [See LinkedIn](https://www.linkedin.com/in/daviprudente/)
- - Marcos Jr [See LinkedIn](https://www.linkedin.com/in/marcos-gon%C3%A7alves-bbb17a1b5)
- - Victor Hugo [See LinkedIn](https://www.linkedin.com/in/victorbkuhn/)
- - Wesley Sardi [See LinkedIn](https://www.linkedin.com/in/wesleysardi/)
