@@ -63,6 +63,7 @@ As seguintes ferramentas foram utilizadas no desenvolvimento deste projeto:
 - [React Native](https://reactnative.dev)
 - [Java](https://docs.oracle.com/en/java/)
 - [Amazon AWS](https://aws.amazon.com/pt/free/)
+- [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/)
 
 ---
 
